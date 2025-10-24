@@ -156,7 +156,7 @@ total_visitantes = len(visitantes)
 print("""
 +================================================+
 |        Museo de Antropología e Historia         |
-|                 Ticket de Venta                 |
+|                 TICKET DE VENTA                 |
 +================================================+
 """, end="")
 
