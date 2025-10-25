@@ -11,7 +11,7 @@
 
 
 
-## Authors
+## Autor
 
 - Gustavo Salvador Leal Dominguez
 - Matricula: 7225668
