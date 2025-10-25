@@ -38,7 +38,7 @@ print(
 |------------------------------------------------|
 |    Tipo de Visitante    |       Descuento      |
 |-------------------------|----------------------|
-| Adulto Mayor (+65)      |   12%                |
+| Adulto Mayor (+60)      |   12%                |
 | Profesor                |   10%                |
 | Estudiante              |   10%                |
 +------------------------------------------------+
@@ -78,7 +78,6 @@ def pedir_texto(mensaje):
 visitantes = []
 persona_precio = [45.00,30.00,0]
 nombre_descuentos = ["Estudiante", "Profesor", "Adulto Mayor", "Sin descuento"]
-num_visitantes = 0
 total_pagar = 0
 
 print("¿Cuántas personas nos visitan hoy?")
@@ -88,7 +87,7 @@ num_visitantes = pedir_entero("Ingrese el número de visitantes: ")
 for i in range(num_visitantes):
     nombre = pedir_texto(f"\nIngresa el Nombre de la persona {i + 1}: ")
     edad = pedir_entero(f"Ingresa la Edad de {nombre}: ")
-    if edad >= 65:
+    if edad >= 60:
         print("Cuentas con una Identificacion de Adulto mayor?\n1 = Sí\n2 = No")
         desicion_persona = int(input("Ingresa tu opción: "))
         if desicion_persona == 1:
